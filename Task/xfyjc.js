@@ -44,7 +44,7 @@ hostname = bp-api.coohua.com
 const $ = new Env('幸福养鸡场');
 let status;
 status = (status = ($.getval("xfyjcstatus") || "1") ) > 1 ? `${status}` : ""; // 账号扩展字符
-const xfyjchdArr = ['{"bs":" CDMA","osVersion":" iOS 13.50","Host":"bp-api.coohua.com","pkgId":" 240","Accept-Encoding":"gzip, deflate, br","deviceId":" 0","wechatId":" ","brand":" Apple","channel":" AppStore","Cache-Control":"no-cache","appVersion":" 1.0.2","accessKey":" 1963e2b659a683ade732648898229ed2_212451691","romVersion":" iOS 13.50","Connection":"keep-alive","User-Agent":"happyHennery-mobile/1 CFNetwork/1126 Darwin/19.5.0","os":" iOS","Accept-Language":"zh-cn","oaid":" ","Accept":"*/*","gps":" default"}'],xfyjccount = ''
+const xfyjchdArr = ['{"wechatId":"","Accept-Encoding":"br, gzip, deflate","bs":"CDMA","channel":"AppStore","pkgId":"240","brand":"Apple","gps":"default","deviceId":"79002F4C-D37E-48F5-AB96-91EC61DD7AB5","Connection":"keep-alive","os":"iOS","accessKey":"65cd88ff85832d249ed4e2fca1224173_227683607","User-Agent":"happyHennery-mobile/1 CFNetwork/897.15 Darwin/17.5.0","osVersion":"iOS 11.30","oaid":"","Host":"bp-api.coohua.com","appVersion":"1.0.2","Accept-Language":"zh-cn","romVersion":"iOS 11.30","Accept":"*/*"}'],xfyjccount = ''
 let xfyjchd = $.getdata('xfyjchd')
 let id = '',name =''
 !(async () => {
